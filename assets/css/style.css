@@ -149,6 +149,24 @@ th{
     }
   }
 /* end of works.html */
+
+
+.galery-wrap-1 {
+    flex: 0 0 33%;
+  }
+.img-galery{
+    float: left;
+    width:  400px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 15px;
+    box-shadow: 1px 1px 20px 1px #818181;
+}
+
+.section-galery{
+    margin-top: 30px;
+}
+
 .footer-div{
     display: flex;
     justify-content: center;
