@@ -17,6 +17,8 @@ header{
 body{
     background-color:rgb(36, 36, 36);
     color: rgb(204, 204, 204);
+    max-width: 1400px;
+    margin: auto;
 }
 
 p{
@@ -70,8 +72,9 @@ p{
 }
 
 h1{
-   
+
     font-size: 3vw;
+    text-align: center;
 }
 
 h2{
@@ -93,6 +96,59 @@ button{
     background-color:rgb(36, 36, 36);
 }
 
+/* works.html */
+.section-works-top{
+    margin: 30px 0px 30px 0px;
+}
+.img-work{
+    max-height: 300px;
+    height: auto;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+th{
+    width: 50%;
+}
+
+.works-disc{
+    padding: 10px 25px 10px 10px;
+}
+
+.section-work{
+    display: flex;
+    background-color:rgb(73, 73, 73);
+    max-width: 90%;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .work-wrap-1, .work-wrap-2 {
+    flex: 0 0 50%;
+  }
+  
+  @media screen and (max-width:768px) {
+    .work-wrap {
+      flex-flow: column nowrap;
+    }
+
+    .work-wrap-2{
+        margin-top: 20px;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+  }
+/* end of works.html */
 .footer-div{
     display: flex;
     justify-content: center;
